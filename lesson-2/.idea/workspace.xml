@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13bac33d-d2ed-481a-b270-b062ae0ea064" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1c4n0I3mNxAzz0WWNnVW2BlrjZr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Node.js.1.js">
+    <configuration name="10.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="10.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="11.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="11.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="12.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="12.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="13.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="13.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="1.js" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="2.js" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="2.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="3.js" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="3.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="4.js" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="4.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="5.js (1)" type="NodeJSConfigurationType" temporary="true" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="5.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="5.js" type="NodeJSConfigurationType" singleton="false" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="6.js" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="6.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="7.js" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="7.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="8.js" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="8.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="9.js" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="9.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.7.js" />
+      <item itemvalue="Node.js.8.js" />
+      <item itemvalue="Node.js.9.js" />
+      <item itemvalue="Node.js.1.js" />
+      <item itemvalue="Node.js.5.js" />
+      <item itemvalue="Node.js.2.js" />
+      <item itemvalue="Node.js.3.js" />
+      <item itemvalue="Node.js.4.js" />
+      <item itemvalue="Node.js.6.js" />
+      <item itemvalue="Node.js.11.js" />
+      <item itemvalue="Node.js.12.js" />
+      <item itemvalue="Node.js.13.js" />
+      <item itemvalue="Node.js.5.js (1)" />
+      <item itemvalue="Node.js.10.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.13.js" />
+        <item itemvalue="Node.js.12.js" />
+        <item itemvalue="Node.js.11.js" />
+        <item itemvalue="Node.js.10.js" />
+        <item itemvalue="Node.js.5.js (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13bac33d-d2ed-481a-b270-b062ae0ea064" name="Default Changelist" comment="" />
+      <created>1589796508414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589796508414</updated>
+      <workItem from="1589796510270" duration="2784000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="515" y="73" key="#1.js" timestamp="1589798322305">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#1.js/0.0.1600.870@0.0.1600.870" timestamp="1589798322305" />
+    <state x="515" y="73" key="#10.js" timestamp="1589798533084">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#10.js/0.0.1600.870@0.0.1600.870" timestamp="1589798533084" />
+    <state x="515" y="73" key="#11.js" timestamp="1589798233763">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#11.js/0.0.1600.870@0.0.1600.870" timestamp="1589798233763" />
+    <state x="515" y="73" key="#12.js" timestamp="1589798283586">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#12.js/0.0.1600.870@0.0.1600.870" timestamp="1589798283586" />
+    <state x="515" y="73" key="#13.js" timestamp="1589798302174">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#13.js/0.0.1600.870@0.0.1600.870" timestamp="1589798302174" />
+    <state x="515" y="73" key="#2.js" timestamp="1589798347934">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#2.js/0.0.1600.870@0.0.1600.870" timestamp="1589798347934" />
+    <state x="515" y="73" key="#3.js" timestamp="1589798363788">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#3.js/0.0.1600.870@0.0.1600.870" timestamp="1589798363788" />
+    <state x="515" y="73" key="#4.js" timestamp="1589798388477">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#4.js/0.0.1600.870@0.0.1600.870" timestamp="1589798388477" />
+    <state x="515" y="73" key="#5.js" timestamp="1589797995134">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#5.js/0.0.1600.870@0.0.1600.870" timestamp="1589797995134" />
+    <state x="515" y="73" key="#5.js_(1)" timestamp="1589798407468">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#5.js_(1)/0.0.1600.870@0.0.1600.870" timestamp="1589798407468" />
+    <state x="515" y="73" key="#6.js" timestamp="1589798425820">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#6.js/0.0.1600.870@0.0.1600.870" timestamp="1589798425820" />
+    <state x="515" y="73" key="#6.js_(1)" timestamp="1589798096580">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#6.js_(1)/0.0.1600.870@0.0.1600.870" timestamp="1589798096580" />
+    <state x="515" y="73" key="#7.js" timestamp="1589798465500">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#7.js/0.0.1600.870@0.0.1600.870" timestamp="1589798465500" />
+    <state x="515" y="73" key="#8.js" timestamp="1589798477815">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#8.js/0.0.1600.870@0.0.1600.870" timestamp="1589798477815" />
+    <state x="515" y="73" key="#9.js" timestamp="1589798493998">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="515" y="73" key="#9.js/0.0.1600.870@0.0.1600.870" timestamp="1589798493998" />
+    <state x="260" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589798541069">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="260" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.870@0.0.1600.870" timestamp="1589798541069" />
+    <state width="1376" height="210" key="GridCell.Tab.0.bottom" timestamp="1589799040096">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1376" height="210" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1589799040096" />
+    <state width="1376" height="210" key="GridCell.Tab.0.center" timestamp="1589799040096">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1376" height="210" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1589799040096" />
+    <state width="1376" height="210" key="GridCell.Tab.0.left" timestamp="1589799040095">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1376" height="210" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1589799040095" />
+    <state width="1376" height="210" key="GridCell.Tab.0.right" timestamp="1589799040096">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1376" height="210" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1589799040096" />
+  </component>
+</project>
