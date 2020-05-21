@@ -6,9 +6,8 @@
 
 ////////////////// Решение //////////////////
 const array = [1, 2, 3, 4, 5, 6];
-
 var itogo_need  = 0;
-var chislo;
+//var chislo;
 
 for (chislo of array) {
     if (chislo > 3 && chislo % 2 === 0) {

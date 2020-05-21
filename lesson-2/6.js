@@ -7,7 +7,7 @@
 ////////////////// Решение //////////////////
 const array = [1, 2, 3, 4];
 var itogo  = 0;
-var chislo;
+//var chislo;
 
 for (chislo of array) {
     itogo = itogo + chislo;

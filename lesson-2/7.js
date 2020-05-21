@@ -7,7 +7,7 @@
 ////////////////// Решение //////////////////
 const array = [1, 2, 3, 4];
 var itogo_chet  = 0;
-var chislo;
+//var chislo;
 
 for (chislo of array) {
     if (chislo % 2 === 0) {

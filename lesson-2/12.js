@@ -6,8 +6,8 @@
 
 ////////////////// Решение //////////////////
 const array = [1, 2, 5, 9, 4, 13, 4, 10];
-for (var j = 0; j < 5; ++j) {
-   if (array[j] = 4) {
+for (var j = 0; j < array.length - 1; ++j) {
+   if (array[j] === 4) {// Была еще array[j] = 4
        console.log('Есть');
     break;}
 }

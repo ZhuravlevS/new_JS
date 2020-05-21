@@ -24,5 +24,5 @@ switch (value) {
         console.log(1); //)
         break;
     case 2:
-    case 3: case 0 : console.log('2,3')
+    case 3: console.log('2,3')
 }

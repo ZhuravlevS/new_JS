@@ -6,12 +6,13 @@
 
 ////////////////// Решение //////////////////
 const array = [2, 5, 9, 15, 0, 4];
-var value = 0;
 
-for (var i = 0; i < 6; ++i) {
-    value = array[i];
+for (var i = 0; i < array.length; ++i) {
+    let value = array[i];
     if (value > 3 && value < 10) {
        console.log(i);
-        //console.log(value);
+        //console.log(array.length);
     }
 }
+
+
