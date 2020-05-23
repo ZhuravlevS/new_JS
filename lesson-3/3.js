@@ -20,7 +20,7 @@ let maxLength = 25;
 function truncate (string, maxLength) {
 
     if (typeof string !== 'string' || typeof maxLength !== 'number'
-        // || !Number.isNaN(maxLength) ||Не сработало?
+         || isNaN(maxLength)
          || !isFinite(maxLength))
     {
         throw 'Неправильный тип входного параметра';
@@ -32,7 +32,7 @@ function truncate (string, maxLength) {
         return string;
     }
 }
-
+console.log(!isFinite(maxLength));
 try {
     console.log(truncate(string, maxLength));
 }
