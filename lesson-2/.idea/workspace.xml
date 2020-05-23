@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="13bac33d-d2ed-481a-b270-b062ae0ea064" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.js" beforeDir="false" afterPath="$PROJECT_DIR$/10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12.js" beforeDir="false" afterPath="$PROJECT_DIR$/12.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7.js" beforeDir="false" afterPath="$PROJECT_DIR$/7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.js" beforeDir="false" afterPath="$PROJECT_DIR$/8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson-2_st" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson-3" />
   </component>
   <component name="RunManager" selected="Node.js.10.js">
     <configuration name="10.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="10.js" working-dir="$PROJECT_DIR$">
@@ -109,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589796508414</updated>
-      <workItem from="1589796510270" duration="12419000" />
+      <workItem from="1589796510270" duration="14244000" />
     </task>
     <servers />
   </component>
@@ -181,21 +176,25 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="260" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.870@0.0.1600.870" timestamp="1589798541069" />
-    <state width="1369" height="210" key="GridCell.Tab.0.bottom" timestamp="1590078392716">
+    <state x="604" y="193" key="FileChooserDialogImpl" timestamp="1590174790630">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1369" height="210" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1590078392716" />
-    <state width="1369" height="210" key="GridCell.Tab.0.center" timestamp="1590078392715">
+    <state x="604" y="193" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1590174790630" />
+    <state width="1369" height="210" key="GridCell.Tab.0.bottom" timestamp="1590174799391">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1369" height="210" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1590078392715" />
-    <state width="1369" height="210" key="GridCell.Tab.0.left" timestamp="1590078392715">
+    <state width="1369" height="210" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1590174799391" />
+    <state width="1369" height="210" key="GridCell.Tab.0.center" timestamp="1590174799390">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1369" height="210" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1590078392715" />
-    <state width="1369" height="210" key="GridCell.Tab.0.right" timestamp="1590078392715">
+    <state width="1369" height="210" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1590174799390" />
+    <state width="1369" height="210" key="GridCell.Tab.0.left" timestamp="1590174799389">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state width="1369" height="210" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1590078392715" />
+    <state width="1369" height="210" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1590174799389" />
+    <state width="1369" height="210" key="GridCell.Tab.0.right" timestamp="1590174799390">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1369" height="210" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1590174799390" />
   </component>
 </project>
