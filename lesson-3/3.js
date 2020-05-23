@@ -32,7 +32,7 @@ function truncate (string, maxLength) {
         return string;
     }
 }
-console.log(!isFinite(maxLength));
+
 try {
     console.log(truncate(string, maxLength));
 }
