@@ -20,24 +20,25 @@ const array = [1, 2, 3];
 
 // Решение
 
-const check = function(arg0, arg1) {
-    if (!Array.isArray(arg0)) {
+const check = function(argArr, argFunc) {
+    if (!Array.isArray(argArr)) {
     throw new Error('В качестве первого аргумента передан не массив');}
-    if (typeof  arg1 !== 'function') {
+    if (typeof  argFunc !== 'function') {
     throw new Error('В качестве второго аргумента передана не функция');}
-};
+}
 
-const forEach = function(arg0, arg1) {
+const forEach = function(argArr, argFunc) {
 
-    try {check(arg0, arg1);}
-    catch(err) {console.log(err);
-    return};
+    try {check(argArr, argFunc);}
+    catch(err)
+    {console.log(err);
+    return;}
 
-    arg0.map(function func(item, index, arrRef){
-            if (item !== undefined) {
-                arg1(item, index, arrRef);
-            }
-        });
+    for (let i = 0; i < argArr.length; i++) {
+        if (argArr[i] !== undefined) {
+            argFunc(argArr[i], i, argArr);
+        }
+    }
     return;
 }
 

@@ -35,12 +35,11 @@ const filter = function(arrArg, funcArg) {
     catch(err) {console.log(err);
         return};
 
-    for (i = 0; i < arrArg.length; i++) {
-        funcArg(arrArg[i], i, arrArg);
-        if (arrArg[i] ==='Добрый вечер!') {
+    for (let i = 0; i < arrArg.length; i++) {
+        if (funcArg(arrArg[i], i, arrArg)) {
             newArr.push(arrArg[i]);
         }
-    }
+     }
     return newArr;
 }
 

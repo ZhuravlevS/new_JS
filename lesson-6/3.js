@@ -19,11 +19,11 @@
 const array = [1, 2, 3, 4, 5, 6];
 
 // Решение
-const check = function(arg0, arg1) {
-    if (!Array.isArray(arg0)) {
+const check = function(argArr, argFunc) {
+    if (!Array.isArray(argArr)) {
         throw new Error('В качестве первого аргумента передан не массив');}
 
-    if (typeof arg1 !== 'function') {
+    if (typeof argFunc !== 'function') {
         throw new Error('В качестве второго аргумента передана не функция');}
 };
 
@@ -34,12 +34,11 @@ const every = function(argArr, argFunc) {
         return};
     if (argArr.length === 0) {return false;}
 
-    for (i = 0; i < argArr.length; i++) {
-        argFunc(argArr[i], i, argArr);
-        if (typeof argArr[i] !== 'number') {
+    for (let i = 0; i < argArr.length; i++) {
+        if (!argFunc(argArr[i], i, argArr)) {
             return false;
         }
-    }
+      }
     return true;
 }
 

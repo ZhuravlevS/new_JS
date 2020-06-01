@@ -20,11 +20,11 @@ const array = [1, 2, 3, 4, 5];
 const INITIAL_ACCUMULATOR = 6;
 
 // Решение
-const check = function(arg0, arg1) {
-    if (!Array.isArray(arg0)) {
+const check = function(argArr, argFunc) {
+    if (!Array.isArray(argArr)) {
         throw new Error('В качестве первого аргумента передан не массив');}
 
-    if (typeof arg1 !== 'function') {
+    if (typeof argFunc !== 'function') {
         throw new Error('В качестве второго аргумента передана не функция');}
 };
 
@@ -36,18 +36,15 @@ const reduce = function(argArr, argFunc, INITIAL_ACCUMULATOR) {//
         return;
     };
     let init = argArr[0];
-    let itog = 0;
 
-    if (arguments.length === 3) {
+    if (INITIAL_ACCUMULATOR !==  undefined) {
         init = INITIAL_ACCUMULATOR;
-        itog = init;
     }
 
-    for (i = 0; i < argArr.length; i++) {
-        argFunc(init, argArr[i] ,i, argArr);
-        itog = itog + argArr[i];
-      }
-    return itog;
+    for (let i = 0; i < argArr.length; i++) {
+        init =  argFunc(init, argArr[i] ,i, argArr);
+        }
+    return init;
 }
 
 const result = reduce(
