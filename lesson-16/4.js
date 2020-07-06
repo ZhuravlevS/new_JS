@@ -16,39 +16,45 @@
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
+const check = (str) => {
+    if (typeof str !== 'string') {
+        throw new Error('Параметр функции должен быть строкой');
+    }
+}
+
  class Stringer {
 
     constructor () {
-     }
+    }
 
     reverse (express) {
-
+         check(express);
          let arrIn = express.split('');
-         let arrOut = [];
+         let arrOut = arrIn.reverse();
 
-         for (let i = arrIn.length - 1;  i >= 0; --i) {
-             arrOut.push(arrIn[i]);
-         }
          return arrOut.join('');
     };
 
-    uppercaseFirst(express) {
-        return firstCharToUC(express);
-    };
-    uppercaseAll(express) {
-        let arrIn = express.split(' ');
-        let arrOut  = arrIn.map(function bc(currentValue){
-            return firstCharToUC(currentValue);
-        });
-
-        return arrOut.join(' ');
-    };
+     uppercaseFirst(express) {
+         check(express);
+         return firstCharToUC(express);
+     };
+     uppercaseAll(express) {
+         check(express);
+         let arrOut  = express.split(' ').map(function bc(currentValue){
+             return firstCharToUC(currentValue);
+         });
+         return arrOut.join(' ');
+     };
 }
 
 const stringer = new Stringer();
-
-console.log(stringer.reverse('good morning!')); // !gninrom doog
-console.log(stringer.uppercaseFirst('good morning!')); // Good morning!
-console.log(stringer.uppercaseAll('good morning!')); // Good Morning!
+try {
+    console.log(stringer.reverse('good morning!')); // !gninrom doog
+    console.log(stringer.uppercaseFirst('good morning!')); // Good morning!
+    console.log(stringer.uppercaseAll('good morning!')); // Good Morning!
+}catch (err) {
+    console.log(err.message);
+}
 
 exports.Stringer = Stringer;
