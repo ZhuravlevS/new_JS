@@ -19,26 +19,30 @@
  * - возвращаемая методом delay функция должна быть необязательной;
  * - в реализации метода delay(ms) обязательно использовать setTimeout.
  */
-let timeDelay = 0;
 
-Function.prototype.delay = function( ...pars){
+//Решение
+Function.prototype.delay = function(ms){
     const itAppl = this;
-    timeDelay = pars[0];
-    if (itAppl.name === 'sayHello'){
-        setTimeout(this, timeDelay);
-    }
-    if (itAppl.name === 'sum'){
-        return function () {itAppl.apply(itAppl, arguments)};
+
+    if (!itAppl.length) {
+        setTimeout(function () {
+            itAppl();
+        }, ms);
+    } else {
+            return (...pars) => {
+                setTimeout(function () {
+                    itAppl(...pars);
+                }, ms);
+            }
     }
 }
 
 function sayHello() {
     console.log('Hello!');
 }
-
 sayHello.delay(1000); /* Выведет "Hello!" через 1 секунду */
 
 function sum(a, b) {
-    setTimeout(() => console.log(a + b), timeDelay);
+    console.log(a + b);
 }
 sum.delay(1000)(5, 2); /* Выведет 7 через 1 секунду. */
