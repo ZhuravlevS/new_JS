@@ -50,14 +50,16 @@ function postpone (start, end, delay) {
     check (start, end, delay);
     let rightOrder = (start < end);
 
-    if (!rightOrder) {[end, start] = [start, end]}
-        for (let i = start; i <= end ; i++) {
-            if (rightOrder) {
-                rezArr.push([i, delay]);
-            }else {
-                rezArr.push([end + 1 - i, delay]);
-            };
-          }
+    if (!rightOrder) {
+        [end, start] = [start, end]
+    };
+    for (let i = start; i <= end ; i++) {
+        if (rightOrder) {
+            rezArr.push([i, delay]);
+        }else {
+            rezArr.push([end + 1 - i, delay]);
+        };
+    };
 }
 
 try {
