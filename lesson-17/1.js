@@ -16,7 +16,7 @@
  */
 
 // Решение
-const rezArr = [];
+let step = 0;
 
 const check = (...params) => {
     for (const paramsKey in params) {
@@ -28,37 +28,19 @@ const check = (...params) => {
     }
 }
 
-(function () {
-    setTimeout(() => {
-        getRezalt();
-    }, 0);
-}())
-
-function getRezalt() {
-
-    for (i = 0; i < rezArr.length; i++) {
-        //console.log(rezArr[i]);
-        let [num, delay] = rezArr[i];
-
-        setTimeout(()=> {
-           console.log(num);
-        }, delay * (i + 1));
-    }
-}
-
 function postpone (start, end, delay) {
-    check (start, end, delay);
     let rightOrder = (start < end);
+
+    check (start, end, delay);
 
     if (!rightOrder) {
         [end, start] = [start, end]
     };
     for (let i = start; i <= end ; i++) {
-        if (rightOrder) {
-            rezArr.push([i, delay]);
-        }else {
-            rezArr.push([end + 1 - i, delay]);
-        };
+        step++;
+        setTimeout(()=> {
+            console.log(rightOrder ? i : end + 1 - i);
+        }, delay * (step));
     };
 }
 
